@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30276A68989DC60162F93A9C /* Pods_XRMwallet_swiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E04A4C0B7E4CA3982AB4D608 /* Pods_XRMwallet_swiftUITests.framework */; };
+		CE4898E6205B186800CE26E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4898E5205B186800CE26E8 /* AppDelegate.swift */; };
+		CE4898E8205B186800CE26E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4898E7205B186800CE26E8 /* ViewController.swift */; };
+		CE4898EB205B186800CE26E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4898E9205B186800CE26E8 /* Main.storyboard */; };
+		CE4898ED205B186800CE26E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4898EC205B186800CE26E8 /* Assets.xcassets */; };
+		CE4898F0205B186800CE26E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4898EE205B186800CE26E8 /* LaunchScreen.storyboard */; };
+		CE4898FB205B186800CE26E8 /* XRMwallet_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4898FA205B186800CE26E8 /* XRMwallet_swiftTests.swift */; };
+		CE489906205B186800CE26E8 /* XRMwallet_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE489905205B186800CE26E8 /* XRMwallet_swiftUITests.swift */; };
+		D851A184DE461C42E5C50BF0 /* Pods_XRMwallet_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE43FA9FAC774A122AF7C38 /* Pods_XRMwallet_swift.framework */; };
+		E24B9CD82A5748A9DBF0F278 /* Pods_XRMwallet_swiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3F36CDD59FFD1F97CFAE3B /* Pods_XRMwallet_swiftTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE4898F7205B186800CE26E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE4898DA205B186800CE26E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE4898E1205B186800CE26E8;
+			remoteInfo = "XRMwallet-swift";
+		};
+		CE489902205B186800CE26E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE4898DA205B186800CE26E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE4898E1205B186800CE26E8;
+			remoteInfo = "XRMwallet-swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29A920F11A26A1C7B0E3F58A /* Pods-XRMwallet-swiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XRMwallet-swiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XRMwallet-swiftTests/Pods-XRMwallet-swiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2E0052E6DB048842930340C1 /* Pods-XRMwallet-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XRMwallet-swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XRMwallet-swift/Pods-XRMwallet-swift.debug.xcconfig"; sourceTree = "<group>"; };
+		37388247965F24CAC22039DA /* Pods-XRMwallet-swiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XRMwallet-swiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XRMwallet-swiftUITests/Pods-XRMwallet-swiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F3F36CDD59FFD1F97CFAE3B /* Pods_XRMwallet_swiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XRMwallet_swiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83A1DE9C98403690956F8312 /* Pods-XRMwallet-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XRMwallet-swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-XRMwallet-swift/Pods-XRMwallet-swift.release.xcconfig"; sourceTree = "<group>"; };
+		85DB7DC8B390C06C95747220 /* Pods-XRMwallet-swiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XRMwallet-swiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XRMwallet-swiftUITests/Pods-XRMwallet-swiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BB7F441149AC5E659D5C837C /* Pods-XRMwallet-swiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XRMwallet-swiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XRMwallet-swiftTests/Pods-XRMwallet-swiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		CE4898E2205B186800CE26E8 /* XRMwallet-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XRMwallet-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE4898E5205B186800CE26E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE4898E7205B186800CE26E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE4898EA205B186800CE26E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE4898EC205B186800CE26E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE4898EF205B186800CE26E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE4898F1205B186800CE26E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE4898F6205B186800CE26E8 /* XRMwallet-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XRMwallet-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE4898FA205B186800CE26E8 /* XRMwallet_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XRMwallet_swiftTests.swift; sourceTree = "<group>"; };
+		CE4898FC205B186800CE26E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE489901205B186800CE26E8 /* XRMwallet-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XRMwallet-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE489905205B186800CE26E8 /* XRMwallet_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XRMwallet_swiftUITests.swift; sourceTree = "<group>"; };
+		CE489907205B186800CE26E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E04A4C0B7E4CA3982AB4D608 /* Pods_XRMwallet_swiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XRMwallet_swiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE43FA9FAC774A122AF7C38 /* Pods_XRMwallet_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XRMwallet_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE4898DF205B186800CE26E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D851A184DE461C42E5C50BF0 /* Pods_XRMwallet_swift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4898F3205B186800CE26E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E24B9CD82A5748A9DBF0F278 /* Pods_XRMwallet_swiftTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4898FE205B186800CE26E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30276A68989DC60162F93A9C /* Pods_XRMwallet_swiftUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E8E8876627CA41E0F8F0E08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E0052E6DB048842930340C1 /* Pods-XRMwallet-swift.debug.xcconfig */,
+				83A1DE9C98403690956F8312 /* Pods-XRMwallet-swift.release.xcconfig */,
+				29A920F11A26A1C7B0E3F58A /* Pods-XRMwallet-swiftTests.debug.xcconfig */,
+				BB7F441149AC5E659D5C837C /* Pods-XRMwallet-swiftTests.release.xcconfig */,
+				37388247965F24CAC22039DA /* Pods-XRMwallet-swiftUITests.debug.xcconfig */,
+				85DB7DC8B390C06C95747220 /* Pods-XRMwallet-swiftUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B6743F59F23AFBD4E8509B0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCE43FA9FAC774A122AF7C38 /* Pods_XRMwallet_swift.framework */,
+				5F3F36CDD59FFD1F97CFAE3B /* Pods_XRMwallet_swiftTests.framework */,
+				E04A4C0B7E4CA3982AB4D608 /* Pods_XRMwallet_swiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE4898D9205B186800CE26E8 = {
+			isa = PBXGroup;
+			children = (
+				CE4898E4205B186800CE26E8 /* XRMwallet-swift */,
+				CE4898F9205B186800CE26E8 /* XRMwallet-swiftTests */,
+				CE489904205B186800CE26E8 /* XRMwallet-swiftUITests */,
+				CE4898E3205B186800CE26E8 /* Products */,
+				0E8E8876627CA41E0F8F0E08 /* Pods */,
+				B6743F59F23AFBD4E8509B0C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE4898E3205B186800CE26E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE4898E2205B186800CE26E8 /* XRMwallet-swift.app */,
+				CE4898F6205B186800CE26E8 /* XRMwallet-swiftTests.xctest */,
+				CE489901205B186800CE26E8 /* XRMwallet-swiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE4898E4205B186800CE26E8 /* XRMwallet-swift */ = {
+			isa = PBXGroup;
+			children = (
+				CE4898E5205B186800CE26E8 /* AppDelegate.swift */,
+				CE4898E7205B186800CE26E8 /* ViewController.swift */,
+				CE4898E9205B186800CE26E8 /* Main.storyboard */,
+				CE4898EC205B186800CE26E8 /* Assets.xcassets */,
+				CE4898EE205B186800CE26E8 /* LaunchScreen.storyboard */,
+				CE4898F1205B186800CE26E8 /* Info.plist */,
+			);
+			path = "XRMwallet-swift";
+			sourceTree = "<group>";
+		};
+		CE4898F9205B186800CE26E8 /* XRMwallet-swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE4898FA205B186800CE26E8 /* XRMwallet_swiftTests.swift */,
+				CE4898FC205B186800CE26E8 /* Info.plist */,
+			);
+			path = "XRMwallet-swiftTests";
+			sourceTree = "<group>";
+		};
+		CE489904205B186800CE26E8 /* XRMwallet-swiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE489905205B186800CE26E8 /* XRMwallet_swiftUITests.swift */,
+				CE489907205B186800CE26E8 /* Info.plist */,
+			);
+			path = "XRMwallet-swiftUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE4898E1205B186800CE26E8 /* XRMwallet-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE48990A205B186800CE26E8 /* Build configuration list for PBXNativeTarget "XRMwallet-swift" */;
+			buildPhases = (
+				1AA965DB98BFDE9D2A341C15 /* [CP] Check Pods Manifest.lock */,
+				CE4898DE205B186800CE26E8 /* Sources */,
+				CE4898DF205B186800CE26E8 /* Frameworks */,
+				CE4898E0205B186800CE26E8 /* Resources */,
+				4A8030DB5CD4F2FAA09A17D0 /* [CP] Embed Pods Frameworks */,
+				C039D6D89CC8C6ABD482F4D5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XRMwallet-swift";
+			productName = "XRMwallet-swift";
+			productReference = CE4898E2205B186800CE26E8 /* XRMwallet-swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE4898F5205B186800CE26E8 /* XRMwallet-swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE48990D205B186800CE26E8 /* Build configuration list for PBXNativeTarget "XRMwallet-swiftTests" */;
+			buildPhases = (
+				79E6F67D08233D0D55B15C76 /* [CP] Check Pods Manifest.lock */,
+				CE4898F2205B186800CE26E8 /* Sources */,
+				CE4898F3205B186800CE26E8 /* Frameworks */,
+				CE4898F4205B186800CE26E8 /* Resources */,
+				378A0905EDAF09441653FC39 /* [CP] Embed Pods Frameworks */,
+				4215D5DBA83D4D2141C5106F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE4898F8205B186800CE26E8 /* PBXTargetDependency */,
+			);
+			name = "XRMwallet-swiftTests";
+			productName = "XRMwallet-swiftTests";
+			productReference = CE4898F6205B186800CE26E8 /* XRMwallet-swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE489900205B186800CE26E8 /* XRMwallet-swiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE489910205B186800CE26E8 /* Build configuration list for PBXNativeTarget "XRMwallet-swiftUITests" */;
+			buildPhases = (
+				E3B767144820D96A29336A67 /* [CP] Check Pods Manifest.lock */,
+				CE4898FD205B186800CE26E8 /* Sources */,
+				CE4898FE205B186800CE26E8 /* Frameworks */,
+				CE4898FF205B186800CE26E8 /* Resources */,
+				D18392D90FF567CA50D0962E /* [CP] Embed Pods Frameworks */,
+				DA448FB7F9037F4FE176C2E4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE489903205B186800CE26E8 /* PBXTargetDependency */,
+			);
+			name = "XRMwallet-swiftUITests";
+			productName = "XRMwallet-swiftUITests";
+			productReference = CE489901205B186800CE26E8 /* XRMwallet-swiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE4898DA205B186800CE26E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = user;
+				TargetAttributes = {
+					CE4898E1205B186800CE26E8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CE4898F5205B186800CE26E8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE4898E1205B186800CE26E8;
+					};
+					CE489900205B186800CE26E8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE4898E1205B186800CE26E8;
+					};
+				};
+			};
+			buildConfigurationList = CE4898DD205B186800CE26E8 /* Build configuration list for PBXProject "XRMwallet-swift" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE4898D9205B186800CE26E8;
+			productRefGroup = CE4898E3205B186800CE26E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE4898E1205B186800CE26E8 /* XRMwallet-swift */,
+				CE4898F5205B186800CE26E8 /* XRMwallet-swiftTests */,
+				CE489900205B186800CE26E8 /* XRMwallet-swiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE4898E0205B186800CE26E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4898F0205B186800CE26E8 /* LaunchScreen.storyboard in Resources */,
+				CE4898ED205B186800CE26E8 /* Assets.xcassets in Resources */,
+				CE4898EB205B186800CE26E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4898F4205B186800CE26E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4898FF205B186800CE26E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AA965DB98BFDE9D2A341C15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XRMwallet-swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		378A0905EDAF09441653FC39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XRMwallet-swiftTests/Pods-XRMwallet-swiftTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4215D5DBA83D4D2141C5106F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XRMwallet-swiftTests/Pods-XRMwallet-swiftTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A8030DB5CD4F2FAA09A17D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-XRMwallet-swift/Pods-XRMwallet-swift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XRMwallet-swift/Pods-XRMwallet-swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79E6F67D08233D0D55B15C76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XRMwallet-swiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C039D6D89CC8C6ABD482F4D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XRMwallet-swift/Pods-XRMwallet-swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D18392D90FF567CA50D0962E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XRMwallet-swiftUITests/Pods-XRMwallet-swiftUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA448FB7F9037F4FE176C2E4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XRMwallet-swiftUITests/Pods-XRMwallet-swiftUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3B767144820D96A29336A67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XRMwallet-swiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE4898DE205B186800CE26E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4898E8205B186800CE26E8 /* ViewController.swift in Sources */,
+				CE4898E6205B186800CE26E8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4898F2205B186800CE26E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4898FB205B186800CE26E8 /* XRMwallet_swiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4898FD205B186800CE26E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE489906205B186800CE26E8 /* XRMwallet_swiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE4898F8205B186800CE26E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE4898E1205B186800CE26E8 /* XRMwallet-swift */;
+			targetProxy = CE4898F7205B186800CE26E8 /* PBXContainerItemProxy */;
+		};
+		CE489903205B186800CE26E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE4898E1205B186800CE26E8 /* XRMwallet-swift */;
+			targetProxy = CE489902205B186800CE26E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE4898E9205B186800CE26E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE4898EA205B186800CE26E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE4898EE205B186800CE26E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE4898EF205B186800CE26E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE489908205B186800CE26E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE489909205B186800CE26E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE48990B205B186800CE26E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E0052E6DB048842930340C1 /* Pods-XRMwallet-swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "XRMwallet-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "leoprok.me.XRMwallet-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE48990C205B186800CE26E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83A1DE9C98403690956F8312 /* Pods-XRMwallet-swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "XRMwallet-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "leoprok.me.XRMwallet-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE48990E205B186800CE26E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29A920F11A26A1C7B0E3F58A /* Pods-XRMwallet-swiftTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "XRMwallet-swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "leoprok.me.XRMwallet-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XRMwallet-swift.app/XRMwallet-swift";
+			};
+			name = Debug;
+		};
+		CE48990F205B186800CE26E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB7F441149AC5E659D5C837C /* Pods-XRMwallet-swiftTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "XRMwallet-swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "leoprok.me.XRMwallet-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XRMwallet-swift.app/XRMwallet-swift";
+			};
+			name = Release;
+		};
+		CE489911205B186800CE26E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37388247965F24CAC22039DA /* Pods-XRMwallet-swiftUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "XRMwallet-swiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "leoprok.me.XRMwallet-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "XRMwallet-swift";
+			};
+			name = Debug;
+		};
+		CE489912205B186800CE26E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85DB7DC8B390C06C95747220 /* Pods-XRMwallet-swiftUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "XRMwallet-swiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "leoprok.me.XRMwallet-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "XRMwallet-swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE4898DD205B186800CE26E8 /* Build configuration list for PBXProject "XRMwallet-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE489908205B186800CE26E8 /* Debug */,
+				CE489909205B186800CE26E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE48990A205B186800CE26E8 /* Build configuration list for PBXNativeTarget "XRMwallet-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE48990B205B186800CE26E8 /* Debug */,
+				CE48990C205B186800CE26E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE48990D205B186800CE26E8 /* Build configuration list for PBXNativeTarget "XRMwallet-swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE48990E205B186800CE26E8 /* Debug */,
+				CE48990F205B186800CE26E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE489910205B186800CE26E8 /* Build configuration list for PBXNativeTarget "XRMwallet-swiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE489911205B186800CE26E8 /* Debug */,
+				CE489912205B186800CE26E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE4898DA205B186800CE26E8 /* Project object */;
+}
