@@ -15,6 +15,7 @@
 		CE4898F0205B186800CE26E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4898EE205B186800CE26E8 /* LaunchScreen.storyboard */; };
 		CE4898FB205B186800CE26E8 /* XRMwallet_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4898FA205B186800CE26E8 /* XRMwallet_swiftTests.swift */; };
 		CE489906205B186800CE26E8 /* XRMwallet_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE489905205B186800CE26E8 /* XRMwallet_swiftUITests.swift */; };
+		CE489914205B634F00CE26E8 /* WalletRPC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE489913205B634F00CE26E8 /* WalletRPC.swift */; };
 		D851A184DE461C42E5C50BF0 /* Pods_XRMwallet_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE43FA9FAC774A122AF7C38 /* Pods_XRMwallet_swift.framework */; };
 		E24B9CD82A5748A9DBF0F278 /* Pods_XRMwallet_swiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3F36CDD59FFD1F97CFAE3B /* Pods_XRMwallet_swiftTests.framework */; };
 /* End PBXBuildFile section */
@@ -57,6 +58,7 @@
 		CE489901205B186800CE26E8 /* XRMwallet-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XRMwallet-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE489905205B186800CE26E8 /* XRMwallet_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XRMwallet_swiftUITests.swift; sourceTree = "<group>"; };
 		CE489907205B186800CE26E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE489913205B634F00CE26E8 /* WalletRPC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletRPC.swift; sourceTree = "<group>"; };
 		E04A4C0B7E4CA3982AB4D608 /* Pods_XRMwallet_swiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XRMwallet_swiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE43FA9FAC774A122AF7C38 /* Pods_XRMwallet_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XRMwallet_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -143,6 +145,7 @@
 				CE4898EC205B186800CE26E8 /* Assets.xcassets */,
 				CE4898EE205B186800CE26E8 /* LaunchScreen.storyboard */,
 				CE4898F1205B186800CE26E8 /* Info.plist */,
+				CE489913205B634F00CE26E8 /* WalletRPC.swift */,
 			);
 			path = "XRMwallet-swift";
 			sourceTree = "<group>";
@@ -458,6 +461,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE489914205B634F00CE26E8 /* WalletRPC.swift in Sources */,
 				CE4898E8205B186800CE26E8 /* ViewController.swift in Sources */,
 				CE4898E6205B186800CE26E8 /* AppDelegate.swift in Sources */,
 			);
