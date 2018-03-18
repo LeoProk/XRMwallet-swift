@@ -13,6 +13,7 @@ class WalletRPC{
     init(command:String) {
         switch command {
         case "balance":
+            //get the balance of the wallet
             getBalance()
         default:
             return
@@ -24,6 +25,7 @@ class WalletRPC{
     
     
     func getBalance() -> String {
+        //connecto to remote node 
         let yay = Alamofire.request("http://mine.moneropool.com:3333/pool/blocks",method: .get).responseJSON { response in
             print("Request: \(String(describing: response.request))")   // original url request
             print("Response: \(String(describing: response.response?.statusCode))") // http url response
